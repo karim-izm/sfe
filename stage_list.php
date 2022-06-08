@@ -89,7 +89,7 @@
 		                      Action
 		                    </button>
 		                    <div class="dropdown-menu" style="">
-		                      <a class="dropdown-item view_project" href="./index.php?page=view_stage&id=<?php echo $row['id'] ?>" data-id="<?php echo $row['id'] ?>">View</a>
+		                      <a class="dropdown-item view_project" href="./index.php?page=view_project&id=<?php echo $row['id'] ?>" data-id="<?php echo $row['id'] ?>">View</a>
 		                      <div class="dropdown-divider"></div>
 		                      <?php if($_SESSION['login_type'] != 3): ?>
 		                      <a class="dropdown-item" href="./index.php?page=edit_project&id=<?php echo $row['id'] ?>">Edit</a>
